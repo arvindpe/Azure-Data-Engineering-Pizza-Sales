@@ -16,6 +16,7 @@ Steps:
 5. use self hosted integrated runtime to connect with on-pres sql server from Azure data factory
 6. pipeline will extract data from [dbo].[pizza_sales] table in SQL and store into  raw folder in container pizza-data in ADLS
 7. use databricks to transform the extracted data in above step. (attached Pizza_Sales_trnsformation notebook for your referance)
-8. databricks will store the transformed data into container pizza-data under transform folder.
-9. load data from transform folder into Power BI and create reports.
-10. attached pbix file for your referance (Pizza Sales.pbix)
+8. part-00000-tid-5983773807742060110-273ae31d-1b3e-4995-bf76-364ae6d69e64-41-1-c000.csv --- final output in the databricks.
+9. databricks will store the transformed data into container pizza-data under transform folder.
+10. load data from transform folder into Power BI and create reports.
+11. attached pbix file for your referance (Pizza Sales.pbix)
